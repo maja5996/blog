@@ -226,5 +226,66 @@ h4:hover {
 @media only screen and (max-width: 600px) {
   .main {
     padding: 10em;
+    height: 600px;
+  }
+
+  .navbar {
+    margin: 0 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .work {
+    margin: 0 auto;
+    padding: 1em;
+  }
+
+  .slide {
+    display: flex;
+    width: 100%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    height: 50vh;
+  }
+
+  .box {
+    flex: 1;
+    overflow: hidden;
+    transition: 0.5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    line-height: 0;
+  }
+
+  .box > img {
+    width: 100%;
+    height: calc(100% - 10vh);
+    object-fit: cover;
+    transition: 0.5s;
+  }
+
+  .box > span {
+    font-size: 3vh;
+    font-family: Roboto, Arial, sans-serif;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 3;
+  }
+
+  .typing-demo {
+    font-size: 2em;
+  }
+
+  .aboutBox {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2em;
+    background-image: url(../images/beHappy.jpg);
+  }
+
+  .aboutInfo {
+    font-size: 1em;
   }
 }
