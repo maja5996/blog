@@ -19,11 +19,11 @@ export default function About() {
     
        <div class="aboutBox">
        <div class="aboutInfo">
-       I am Marija Mihajlov, and I have a passion for Web Development, Digital Products, Pixel Perfect things, and foreign languages. <br/> <br/>Since I was young, I wanted to express my creative side. <br/> Even though I have passed half of my exams at the Faculty of Law, I have discovered that is not a career path that I want to follow. <br/> <br/> So I have decided to leave my studies and engage in Development. 
+       I am Marija Mihajlov, and I have a passion for Web Development, Digital Products, Pixel Perfect things, and foreign languages. <br/> <br/>Since I was young, I wanted to express my creative side. <br/> Even though I have passed half of my exams at the Faculty of Law, I have discovered that is not a career path that I want to follow. <br/> <br/> So I have decided to leave my studies and engage in Development. <br/> <br/>Find me on Github!
        </div>
-       <SocialIcon url="https://github.com/maja5996" label="My Git" style={{fontSize:"5em",
-                         marginTop: "7em",
-                         marginLeft: '-7em',
+       <SocialIcon url="https://github.com/maja5996" class="git" label="My Git" style={{fontSize:"5em",
+                         marginTop: "7.9em",
+                         marginLeft: '-4.8em',
                          display: 'flex',
                         justifyContent:'center',
                         alignContent:'center'}} />;
